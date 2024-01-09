@@ -1,18 +1,69 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 15rem;
-    background-color: aqua;
+    height: 18rem;
+    background-color: white;
 }
 header h1 {
     display: flex;
     justify-content: center;
     padding-top: 4rem;
+    font-weight: 1000;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .botones_header {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 2rem;
+    height: 2rem;
+}
+header button {
+    background-color: white;
+    border: none;
+    font-style: italic;
+    opacity: 0.5; 
+    font-size: 1.1rem;
+    font-family: 'fonts/SourceSansPro-Regular.otf';  
+}
+.boton_home {
+    background-color: #D52349;
+    border-radius:0.3rem;
+    width: 5rem;
+    color: white;
+    opacity: 1;
+}
+
+.section_1 {
+    background-image: url(img/pic01.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    background-color: #CCE8F4;    
+    height: 444px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_1 div {
+    background-color: black;
+    width: 40%;
+    height: 10rem;
+    border-radius: 0.3rem;
+}
+.section_1 div h2 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.section_1 div p {
+    color: #D52349;
+    text-align: center;
+    font-size: 1.5rem;
 }
