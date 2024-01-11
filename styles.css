@@ -141,7 +141,7 @@ header button {
 .contenedor_section3 {
     width: 80%;
     display: grid;
-    /* grid-template-columns: (3, 1fr); */
+    grid-template-columns: repeat(3, 1fr);
    
 }
 .contenedor_section3 div {
