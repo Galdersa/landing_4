@@ -140,7 +140,6 @@ header button {
     width: 70%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:;
     margin: auto;
     gap: 3rem;
 }
