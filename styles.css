@@ -378,3 +378,24 @@ footer ul {
 footer li {
     list-style: none;
 }
+/*----------MEDIA QUERIES----------*/
+
+@media screen and (max-width: 1000px) {
+.contenedor_section3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    gap: 3rem;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .contenedor_section3 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        gap: 3rem;
+}  
+}
