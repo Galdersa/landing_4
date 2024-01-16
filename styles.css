@@ -1,6 +1,4 @@
 * {
-    /* margin: 0 auto;
-    padding: 0; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*----------HEADER----------*/
@@ -92,14 +90,11 @@ header button {
 }
 .fa-solid {
     font-size: 5rem;
-    /* border: 0.2rem solid black; */
-
 }
 .section_2 p {
     opacity: 0.5;
 }
 .section_2 .sec2_botones {
-    /* background-color: #D52349; */
     width: 60%;
     height: 5rem;
     margin-left: 20%;
@@ -197,7 +192,6 @@ header button {
     margin-top: -0.1rem;
 }
 .contenedor_section4 {
-   /*  border: 1px solid black; */
     width: 70%;
     height: 49rem;
     display: grid;
@@ -216,7 +210,6 @@ header button {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1rem;
-   /*  padding-bottom: 1rem; */
     font-size: 1.5rem;
     font-weight: 900;
 }
@@ -272,7 +265,6 @@ footer {
     height: 38rem;
 }
 .calendario {
-    /* border: 0.5px solid black; */
     width: 50%;
 }
 theader h2 {
@@ -280,7 +272,7 @@ theader h2 {
     font-size: 1.8rem;
 }
 tbody td {
-    border-top:0.5px solid #504f4f;
+    border-top:0.5px solid #5d5c5c;
 }
 tbody td {
     text-align: left;
@@ -294,7 +286,6 @@ tbody h3 {
     color: #5d5c5c;
 }
 .about {
-    /* border: 0.5px solid black; */
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -319,12 +310,10 @@ tbody h3 {
     color: white;
 }
 .footer_abajo {
-    /* border: 0.5px solid rgb(240, 9, 9); */
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-   /*  height: 30rem; */
 }
 .footer_abajo h2 {
     color: white;
@@ -333,7 +322,6 @@ tbody h3 {
     padding-top: 2rem;
 }
 .footer_izquierda {
-    /* border: 0.5px solid rgb(46, 199, 19); */
     width: 23.3%;    
 }
 .footer_izquierda ul {
@@ -342,7 +330,6 @@ tbody h3 {
     color: grey;
 }
 .footer_centro {
-    /* border: 0.5px solid rgb(5, 73, 129); */
     width: 23.3%;   
 }
 .footer_centro ul {
@@ -351,14 +338,15 @@ tbody h3 {
     color: grey;
 }
 .footer_derecha {
-    /* border: 0.5px solid rgb(236, 198, 10); */
     width: 23.3%;    
 }
 .footer_derecha h3 {
     color: white;
+    width: 30%;
 }
 .footer_derecha p {
     color: #5d5c5c;
+    width: 70%;
 }
 .footer_derecha ul {
     display: flex;
@@ -377,8 +365,7 @@ footer .copy {
     background-color: #302C2D;
     display: flex;
     justify-content: center;
-    border-radius: 0.3rem;
-    
+    border-radius: 0.3rem;    
 }
 footer ul {
     color: #6b6868;
@@ -390,5 +377,4 @@ footer ul {
 }
 footer li {
     list-style: none;
-    
 }
