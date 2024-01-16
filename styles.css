@@ -342,11 +342,11 @@ tbody h3 {
 }
 .footer_derecha h3 {
     color: white;
-    width: 30%;
+    width: 40%;
 }
 .footer_derecha p {
     color: #5d5c5c;
-    width: 70%;
+    width: 60%;
 }
 .footer_derecha ul {
     display: flex;
